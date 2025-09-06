@@ -1,11 +1,12 @@
 {
   "name": "task_2",
   "version": "1.0.0",
-  "description": "",
+  "description": "Adding CSS and Images webpack",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-    "build": "webpack --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development",
+    "build": "webpack"
   },
   "keywords": [
     "asset_compilation",
@@ -15,9 +16,9 @@
     "output",
     "webpack_plugins"
   ],
-  "author": "Belinda Larose",
-  "license": "ISC",
-  "devDependencies": {
+    "author": "Belinda Larose",
+    "license": "ISC",
+    "devDependencies": {
     "css-loader": "^7.1.2",
     "file-loader": "^6.2.0",
     "mini-css-extract-plugin": "^2.9.4",
