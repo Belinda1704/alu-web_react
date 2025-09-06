@@ -5,9 +5,17 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --config webpack.config.js",
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "asset_compilation",
+    "entry_points",
+    "javascript",
+    "loaders",
+    "output",
+    "webpack_plugins"
+  ],
+  "author": "Belinda Larose",
   "license": "ISC",
   "devDependencies": {
     "css-loader": "^7.1.2",
